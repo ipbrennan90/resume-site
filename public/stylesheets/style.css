@@ -1,8 +1,37 @@
 body {
+  background: url(http://i.imgur.com/fzeP0RE.jpg);
+  background-size: "cover";
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+}
+
+.junior{
+  margin-top:10px;
+  margin-bottom:110px;
+}
+
+.page-header{
+  color: #FFFFFF;
+}
+
+.panel{
+  color: #FFFFFF;
+  background: #00CCFF;
+  background:rgba(0,0,0,0.5);
+}
+
+.link_image{
+  margin-top:20px;
+  margin-right:8px;
+  height: 30px;
+  float: left;
 }
 
 a {
   color: #00B7FF;
+}
+
+p {
+  font-size: 12px
 }
