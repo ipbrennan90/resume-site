@@ -1,24 +1,49 @@
 body {
-  background: url(http://i.imgur.com/fzeP0RE.jpg);
+  background: url(http://farm9.staticflickr.com//8246//8611083593_131f786067_k.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: "cover";
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 
 }
 
-.junior{
+.my_links{
   margin-top:10px;
   margin-bottom:110px;
 }
 
+
+
 .page-header{
   color: #FFFFFF;
 }
-
+.panel > .panel-body{
+  display: none;
+}
 .panel{
+  opacity: 0;
   color: #FFFFFF;
   background: #00CCFF;
   background:rgba(0,0,0,0.5);
+
+}
+
+dl {
+  opacity: 0;
+}
+
+.my_links a{
+  opacity: 0
+}
+
+.load {
+  opacity: 1;
+  -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+     -ms-transition: opacity 2s ease-in;
+      -o-transition: opacity 2s ease-in;
+         transition: opacity 2s ease-in;
 }
 
 .link_image{
